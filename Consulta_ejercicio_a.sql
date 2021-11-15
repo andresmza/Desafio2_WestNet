@@ -1,0 +1,1 @@
+SELECT `country`, `state` AS states, COUNT(*) AS quantities FROM customers GROUP BY `country`, `states`
