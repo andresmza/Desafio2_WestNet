@@ -1,0 +1,1 @@
+SELECT products.productCode, quantityOrdered, priceEach, orderLineNumber, productName, products.productLine, textDescription FROM products JOIN orderdetails ON products.productCode = orderdetails.productCode JOIN productlines ON products.productLine = productlines.productLine WHERE orderdetails.orderNumber = 10313
